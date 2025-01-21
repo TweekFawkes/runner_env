@@ -1,0 +1,12 @@
+runner:
+  name: Example Runner With .Env File
+  description: This ion runner shows how to use a .env file to store environment variables.
+  version: 0.0.1
+
+webform:
+  - name: input1
+    prompt: Example input 1
+    type: text
+
+launch:
+  command: app.py --input ${input1}
